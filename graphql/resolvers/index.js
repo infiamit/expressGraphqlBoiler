@@ -1,5 +1,5 @@
-const firstResolvers = require('./firstResolver')
-const secondResolvers = require('./second')
+const firstResolvers = require('./firstResolver');
+const secondResolvers = require('./second');
 
 
 const resolvers = {
@@ -7,6 +7,6 @@ const resolvers = {
         ...firstResolvers,
         ...secondResolvers,
     },
-}
+};
 
-module.exports = resolvers
+module.exports = resolvers;

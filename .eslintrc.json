@@ -17,23 +17,10 @@
           }
     },
     "rules": {
-        "prefer-const": ["error", {
-        "destructuring": "any",
-        "ignoreReadBeforeAssign": false
-    }],
-    "no-var":"error",
-        "no-console":1, 
+          
         "indent": [
             "error",
             4
-        ], 
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "never"
         ]
     }
 }

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "prestart": "eslint .",
+    "predev": "eslint .",
     "start": "node ./bin/www",
     "dev": "nodemon --exec npm start"
   },
