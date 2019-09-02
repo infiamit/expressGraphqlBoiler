@@ -2,12 +2,11 @@ const firstResolvers = require('./firstResolver')
 const secondResolvers = require('./second')
 
 
-
 const resolvers = {
     Query: {
         ...firstResolvers,
-        ...secondResolvers
-    }
-};
+        ...secondResolvers,
+    },
+}
 
-module.exports = resolvers;
+module.exports = resolvers

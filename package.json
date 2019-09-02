@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "prestart": "eslint .",
+    "start": "node ./bin/www",
+    "dev": "nodemon --exec npm start"
   },
   "dependencies": {
     "apollo-server-express": "^2.9.2",
@@ -13,5 +15,10 @@
     "express": "~4.16.1",
     "graphql": "^14.5.4",
     "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
   }
 }
